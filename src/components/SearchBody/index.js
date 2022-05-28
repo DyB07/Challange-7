@@ -98,6 +98,7 @@ const SearchBody = () => {
                             <select className="orang">
                                 <option hidden>Jumlah Penumpang</option>
                                 <option value="2">2 Orang</option>
+                                <option value="4">4 Orang</option>
                                 <option value="6">6 Orang</option>
                                 <option value="8">8 Orang</option>
                             </select>
