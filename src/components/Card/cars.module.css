@@ -1,0 +1,48 @@
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 300px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.card .title{
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.card .oto{
+    width: 250px;
+    height: 150px;
+}
+
+.card img{
+    width: 20px;
+}
+
+.card .body{
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.card .body .icon{
+    padding-bottom: 15px;
+}
+
+.card .body .icon label{
+    margin-left: 10px;
+}
+
+.card .body button{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    color: white;
+    cursor: pointer;
+}

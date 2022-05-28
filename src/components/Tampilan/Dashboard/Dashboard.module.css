@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #F1F3FF;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+.text{
+    margin-top: 50px;
+}
+
+.text label{
+    font-size: 36px;
+}
+
+.text p{
+    width: 500px;
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    line-height: 25px;
+}
+
+.text button{
+    padding: 10px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}

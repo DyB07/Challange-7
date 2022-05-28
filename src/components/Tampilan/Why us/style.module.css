@@ -1,0 +1,58 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: Helvetica, sans-serif;
+}
+
+.judul{
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+
+.judul h4{
+    font-size: 24px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.like{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    padding: 20px 0px 0px 30px;
+}
+
+.tag{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    padding: 20px 0px 0px 30px;
+}
+
+.time{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    padding: 20px 0px 0px 30px;
+}
+
+.medal{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    padding: 20px 0px 0px 30px;
+}
+
+.img{
+    width: 40px;
+}

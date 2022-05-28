@@ -1,0 +1,44 @@
+.container{
+    position: relative;
+    width: 99.8%;
+    height: 500px;
+}
+
+.row{
+    background: #0D28A6;
+    border-radius: 13px;
+    width: 1168px;
+    height: 326px;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.row h1{
+    padding-top: 50px;
+    font-size: 36px;
+    color: white;
+}
+
+.row label{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.row button{
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}

@@ -1,0 +1,144 @@
+/* Awal Dashboard */
+.dashboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #F1F3FF;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+.text{
+    margin-top: 50px;
+}
+
+.text label{
+    font-size: 36px;
+}
+
+.text p{
+    width: 500px;
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    line-height: 25px;
+}
+
+/* .text button{
+    padding: 10px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+} */
+/* Akhir Dashboard */
+
+/* AWal Modal */
+.modal{
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    /* border: 1px solid green;
+    width: 100%;
+    height: 100px;
+    overflow: hidden; */
+}
+
+.row{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    width: 1080px;
+    height: 100px;
+    margin-left: 140px;
+    margin-top: -30px;
+}
+
+.type{
+    padding: 20px 10px 0px 20px;
+}
+
+.pilihan{
+    display: flex;
+    margin-top: 10px;
+    width: 200px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    padding: 9px 12px;
+}
+
+.tanggal{
+    padding: 20px 10px 0px 20px;
+}
+
+.jam{
+    padding: 20px 10px 0px 20px;
+}
+
+.hari{
+    margin-top: 10px;
+    width: 200px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    padding-left: 20px;
+}
+
+.waktu{
+    display: flex;
+    margin-top: 10px;
+    width: 200px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    padding: 9px 12px;
+}
+
+.penumpang{
+    padding: 20px 10px 0px 20px;
+}
+
+.orang{
+    display: flex;
+    margin-top: 10px;
+    width: 200px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    padding: 9px 12px;
+}
+
+.tombol{
+    padding: 48px 0px 0px 20px;
+}
+
+.cari{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+/* Akhir Modal */
+
+/* Awal Card */
+.cars{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cars .body{
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 88%;
+}
+/* Akhir Card */

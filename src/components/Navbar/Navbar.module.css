@@ -1,0 +1,53 @@
+.container {
+    padding: 5px 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #F1F3FF;;
+}
+
+/* Awal Navbar Menu */
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.navbar ul li button{
+    /*width: 80px;
+    height: 25px;*/
+    padding: 1.5vh;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+.list{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* Akhir Navbar Menu */
+
+/* Awal Logo */
+.logo{
+    margin: auto 0px auto 24px;
+}
+
+.logo a{
+    font-size: 36px;
+    cursor: pointer;
+}
+/* Akhir Logo */
