@@ -6,7 +6,7 @@ import calendar from '../../asset/fi_calendar.png';
 
 
 export default function Card({product}) {
-    return (
+    return (    
                 <div className={Styles.card}>
 
                     <div className={Styles.title}>

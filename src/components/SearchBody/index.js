@@ -3,7 +3,7 @@ import axios from "axios";
 import { useDispatch ,useSelector} from "react-redux";
 import { importCar, carsFilter } from '../../slicer';
 
-import Styles from './Search.module.css';
+import Styles from "./Search.module.css";
 import Card from "../Card";
 
 import gambar from '../../asset/img_car.png'
@@ -111,7 +111,7 @@ const SearchBody = () => {
 
                 <div className={Styles.cars}>
 
-                    <div className={Styles.body} id="card-car" class="result">
+                    <div className={Styles.body1} id="card-car" class="result">
                         {
                             cars.map((item, index) => <Card key={index} product={item} />)
                         }
