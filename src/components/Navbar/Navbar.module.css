@@ -1,4 +1,4 @@
-.container {
+.nav{
     padding: 5px 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);

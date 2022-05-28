@@ -1,4 +1,4 @@
-.card{
+.card-cars{
     background: #FFFFFF;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
@@ -9,35 +9,35 @@
     margin-bottom: 50px;
 }
 
-.card .title{
+.card-cars .title{
     width: 100%;
     padding-top: 50px;
     text-align: center;
 }
 
-.card .oto{
+.card-cars .title .oto{
     width: 250px;
     height: 150px;
 }
 
-.card img{
+.card-cars img{
     width: 20px;
 }
 
-.card .body{
+.card-cars .cars-body{
     padding-left: 25px;
     padding-right: 20px;
 }
 
-.card .body .icon{
+.card-cars .cars-body .cars-icon{
     padding-bottom: 15px;
 }
 
-.card .body .icon label{
+.card-cars .cars-body .cars-icon label{
     margin-left: 10px;
 }
 
-.card .body button{
+.card-cars .cars-body button{
     width: 250px;
     height: 30px;
     border-radius: 5px;

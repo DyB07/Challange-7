@@ -1,14 +1,14 @@
-.container {
+.bodyfooter {
 	max-width: 1170px;
 	margin: auto;
 }
 
-.row {
+.mainfooter {
 	display: flex;
 	/* flex-wrap: wrap; */
 }
 
-.ul {
+.ul-1 {
 	list-style: none;
 }
 
@@ -16,12 +16,12 @@
 	padding-top: 150px;
 }
 
-.col {
+.col-1 {
 	width: 25%;
 	padding: 0 15px;
 }
 
-.col h4 {
+.col-1 h4 {
 	font-size: 18px;
 	color: black;
 	text-transform: capitalize;
@@ -30,7 +30,7 @@
 	position: relative;
 }
 
-.col h4::before {
+.col-1 h4::before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -40,11 +40,11 @@
 	width: 50px;
 }
 
-.col .ul li:not(:last-child) {
+.col-1 .ul-1 li:not(:last-child) {
 	margin-bottom: 10px;
 }
 
-.col .ul li a {
+.col-1 .ul-1 li a {
 	font-size: 16px;
 	text-transform: capitalize;
 	color: black;
@@ -54,12 +54,12 @@
 	display: block;
 }
 
-.col .ul li a:hover {
+.col-1 .ul-1 li a:hover {
 	color: black;
 	padding-left: 8px;
 }
 
-.col .sosmed a {
+.col-1 .sosmed a {
 	height: 40px;
 	width: 40px;
 	margin: 0 10px 10px 0;

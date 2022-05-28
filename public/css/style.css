@@ -1,0 +1,527 @@
+/* Awal Navbar Menu */
+.nav{
+    padding: 5px 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #F1F3FF;;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.navbar ul li button{
+    /*width: 80px;
+    height: 25px;*/
+    padding: 1.5vh;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+.list{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* Akhir Navbar Menu */
+
+/* Awal Logo */
+.logo{
+    margin: auto 0px auto 24px;
+}
+
+.logo a{
+    font-size: 36px;
+    cursor: pointer;
+}
+/* Akhir Logo */
+
+/* Awal Dashboard */
+.dashboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #F1F3FF;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+.text1{
+    margin-top: 50px;
+}
+
+.text1 label{
+    font-size: 36px;
+}
+
+.text1 p{
+    width: 500px;
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    line-height: 25px;
+}
+
+.text1 button{
+    padding: 10px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* AKhir Dashboard */
+
+/* Awal OurServices */
+.ourservice{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Helvetica, sans-serif;
+}
+
+.text2{
+    width: 550px;
+}
+
+.text2 label{
+    font-size: calc(1.325rem + .9vw);
+}
+
+.text2 p{
+    padding: 15px 0px 15px 0px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.list1{
+    display: flex;
+    flex-direction: row;
+    line-height: 40px;
+    list-style: none;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    margin-left: -45px;
+}
+
+.list1 label{
+    font-size: 16px;
+    padding-left: 5px;
+}  
+/* Akhir Services */
+
+/* Awal Why Us */
+.whyus{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: Helvetica, sans-serif;
+}
+
+.judul{
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+
+.judul h4{
+    font-size: 24px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.like{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    padding: 20px 0px 0px 30px;
+}
+
+.tag{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    padding: 20px 0px 0px 30px;
+}
+
+.time{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    padding: 20px 0px 0px 30px;
+}
+
+.medal{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    padding: 20px 0px 0px 30px;
+}
+
+.img{
+    width: 40px;
+}
+/* Akhir Why Us */
+
+/* Awal Lokasi */
+.lokasi{
+    position: relative;
+    width: 99.8%;
+    height: 500px;
+}
+
+.tampilan{
+    background: #0D28A6;
+    border-radius: 13px;
+    width: 1168px;
+    height: 326px;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.tampilan h1{
+    padding-top: 50px;
+    font-size: 36px;
+    color: white;
+}
+
+.tampilan label{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.tampilan button{
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Akhir Lokasi */
+
+
+
+/* Awal Seacrh Body */
+
+/* Awal Dashboard */
+.dashboard-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #F1F3FF;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+.text-main{
+    margin-top: 50px;
+}
+
+.text-main label{
+    font-size: 36px;
+}
+
+.text-main p{
+    width: 500px;
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    line-height: 25px;
+}
+
+/* .text-main button{
+    padding: 10px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+} */
+/* Akhir Dashboard */
+
+/* AWal Modal */
+.mainmodal{
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    /* border: 1px solid green;
+    width: 100%;
+    height: 100px;
+    overflow: hidden; */
+}
+
+.row-modal{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    width: 1080px;
+    height: 100px;
+    margin-left: 140px;
+    margin-top: -30px;
+}
+
+.type{
+    padding: 20px 10px 0px 20px;
+}
+
+.pilihan{
+    display: flex;
+    margin-top: 10px;
+    width: 200px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    padding: 9px 12px;
+}
+
+.tanggal{
+    padding: 20px 10px 0px 20px;
+}
+
+.jam{
+    padding: 20px 10px 0px 20px;
+}
+
+.hari{
+    margin-top: 10px;
+    width: 200px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    padding-left: 20px;
+}
+
+.waktu{
+    display: flex;
+    margin-top: 10px;
+    width: 200px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    padding: 9px 12px;
+}
+
+.penumpang{
+    padding: 20px 10px 0px 20px;
+}
+
+.orang{
+    display: flex;
+    margin-top: 10px;
+    width: 200px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    padding: 9px 12px;
+}
+
+.tombol{
+    padding: 48px 0px 0px 20px;
+}
+
+.cari{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+/* Akhir Modal */
+
+/* Awal Card */
+.cars{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cardbody{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 150px;
+    width: 88%;
+}
+
+.card-cars{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 300px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.card-cars .title{
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.card-cars .title .oto{
+    width: 250px;
+    height: 150px;
+}
+
+.card-cars img{
+    width: 20px;
+}
+
+.card-cars .cars-body{
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.card-cars .cars-body .cars-icon{
+    padding-bottom: 15px;
+}
+
+.card-cars .cars-body .cars-icon label{
+    margin-left: 10px;
+}
+
+.card-cars .cars-body button{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #5CB85F;
+    background-color: #5CB85F;
+    color: white;
+    cursor: pointer;
+}
+/* Akhir Card */
+
+/* Awal Seacrh Body */
+
+
+
+/* Awal Footer */
+.bodyfooter {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.mainfooter {
+	display: flex;
+	/* flex-wrap: wrap; */
+}
+
+.ul-1 {
+	list-style: none;
+}
+
+.footer {
+	padding-top: 150px;
+}
+
+.col-1 {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.col-1 h4 {
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	/* margin-bottom: 35px; */
+	font-weight: 500;
+	position: relative;
+}
+
+.col-1 h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.col-1 .ul-1 li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.col-1 .ul-1 li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+}
+
+.col-1 .ul-1 li a:hover {
+	color: black;
+	padding-left: 8px;
+}
+
+.col-1 .sosmed a {
+	height: 40px;
+	width: 40px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+}
+
+.img1 {
+	width: 30px;
+	margin-top: -50px;
+}
+
+.brand{
+    background-color: blue;
+    width: 100px;
+    height: 35px;
+}
+/* Akhir Footer */
+
