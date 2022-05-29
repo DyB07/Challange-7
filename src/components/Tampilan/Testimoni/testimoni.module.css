@@ -1,0 +1,93 @@
+.testimonial{
+    display: flex;
+}
+
+.rowTestimoni{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+}
+
+.TitleTestimonial{
+    text-align: center;
+}
+
+.TitleTestimonial h3{
+    font-size: 24px;
+}
+
+.TitleTestimonial label{
+    font-size: 16px;
+}
+
+.review{
+    display: flex;
+    background: #F1F3FF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 600px;
+    height: 250px;
+    /*padding-left: 20px;
+    padding-right: 30px;
+    */-webkit-border-radius: 5px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.manusia img{
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.manusia{
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    /* background-color: aqua;
+    width: 150px;
+    height: 300px; */
+}
+
+.konten{
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.bintang{
+    padding-bottom: 10px;
+}
+
+#card1{
+    margin-left: -230px;
+}
+
+#card2{
+    margin-left: 30px;
+}
+
+#card3{
+    margin-left: 30px;
+}
+
+.BtnKlik{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.klik{
+    width: 35px;
+    -webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.klik1{
+    padding-left: 20px;
+    width: 35px;
+}

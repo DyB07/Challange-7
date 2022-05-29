@@ -9,6 +9,11 @@ import like from '../../asset/like.png';
 import tag from '../../asset/tag.png';
 import time from '../../asset/time.png';
 import medal from '../../asset/medal.png';
+import orang from '../../asset/user.png';
+import orang1 from '../../asset/img_photo.png';
+import orang2 from '../../asset/img_photo1.png';
+import star from '../../asset/star.png'
+import klik from '../../asset/right.png'
 
 
 const MainBody = () => {
@@ -92,6 +97,72 @@ const MainBody = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="testimoni">
+                <div className="TitleTestimonial">
+                    <h3>Testimonial</h3>
+                    <label>Berbagai Review Positif dari para pelanggan kami</label>
+                </div>
+
+            <div className="rowTestimoni">
+                
+                    <div id="card1" className="review">
+                        <div className="manusia">
+                            <img src={orang} />
+                        </div>
+                        <div className="konten">
+                            <div className="bintang">
+                                <img src={star} />
+                                <img src={star} />
+                                <img src={star} />
+                                <img src={star} />
+                                <img src={star} />
+                            </div>
+                                <label>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</label>
+                                <p>John Dee 32, Bromo</p>
+                        </div>
+                    </div>
+
+                    <div id="card2" className="review">
+                        <div className="manusia">
+                            <img src={orang1} />
+                        </div>
+                        <div className="konten">
+                            <div className="bintang">
+                                <img src={star} />
+                                <img src={star} />
+                                <img src={star} />
+                                <img src={star} />
+                                <img src={star} />
+                            </div>
+                                <label>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</label>
+                                <p>John Dee 32, Bromo</p>
+                        </div>
+                    </div>
+
+                    <div id="card3" className="review">
+                        <div className="manusia">
+                            <img src={orang2} />
+                        </div>
+                        <div className="konten">
+                            <div className="bintang">
+                                <img src={star} />
+                                <img src={star} />
+                                <img src={star} />
+                                <img src={star} />
+                                <img src={star} />
+                            </div>
+                                <label>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</label>
+                                <p>John Dee 32, Bromo</p>
+                        </div>
+                    </div>
+            </div>
+            <div className="BtnKlik">
+                <img className="klik" src={klik} />
+                <img className="klik1" src={klik} />
+            </div>
+
+        </div>
 
             <div className='lokasi'>
                 <div className="tampilan">
