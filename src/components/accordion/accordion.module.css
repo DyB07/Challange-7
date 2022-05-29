@@ -1,0 +1,9 @@
+.accordion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.accordionText{
+    width: 500px;
+    padding-left: 90px;
+}

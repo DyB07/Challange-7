@@ -1,0 +1,65 @@
+/*Button*/
+.accordion_btn {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.accordion_btn:hover{
+    background-color: #ccc;
+}
+.accordion_btn::after{
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+/*Style Ketika Tombol di klik*/
+.accordion_btn_open {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.accordion_btn_open:hover{
+    background-color: #ccc;
+}
+.accordion_btn_open::after{
+    content: "\2212";
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+/*Panel*/
+.accordion_panel{
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+.accordion_panel_open{
+    padding: 0 18px;
+    background-color: white;
+    max-height: 500px;
+    transition: max-height 0.5s ease-out;
+}
+
+.accordion5{
+    margin-left: -70px;
+    padding-right: 100px;
+}
